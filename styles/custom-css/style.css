@@ -5,6 +5,7 @@ body{
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #5E17EB;
     background-repeat: no-repeat;
 }
+
 .B{
     color:  #0098FF;
 }
@@ -130,9 +131,13 @@ body{
     .landpage{
         padding-left: 10px;
     }
+    .left{
+        padding-bottom: 50px;
+    }
     .launch{
         width: 100%;
         height: auto;
+        margin-top: 90px;
     }
     .submit-button{
         position: relative;
