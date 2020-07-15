@@ -1,7 +1,7 @@
 <?php
 $servername = "k2fqe1if4c7uowsh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $username = "mlz2y2trsxppp424";
-$password = "s0y2k3sw1dmzxiqq";
+$password = "xf080icpf8q4qpip";
 $dbname = "dr5umle9airr4q7s";
 
 // Create connection
