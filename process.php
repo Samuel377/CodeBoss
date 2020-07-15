@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 if (isset($_POST['email'])){
         $email = mysqli_real_escape_string($conn, $_POST['email']);
-        $sql = "INSERT INTO MySubscribers(email)
+        $sql = "INSERT INTO 3306(email)
         VALUES ('$email')";
 
         if ($conn->query($sql) === TRUE) {
