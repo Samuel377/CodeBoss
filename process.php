@@ -14,7 +14,7 @@ if (!empty($email)){
         . mysqli_connect_error());
     }
     else{
-        $sql = "INSERT INTO subscribers(email)
+        $sql = "INSERT INTO (email)
         VALUES('$email')";
         if ($conn->query($sql)){
             echo "Subscribed Successfully";
