@@ -4,7 +4,7 @@ if (!empty($email)){
     $host = "us-cdbr-east-02.cleardb.com";
     $dbusername = "b20f332d2bbfc5";
     $dbpassword = "2e262819";
-    $dbname = "heroku_f954f3b3a98254a";
+    $dbname = "subscribers";
     // Create connection
     $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
@@ -14,7 +14,7 @@ if (!empty($email)){
         . mysqli_connect_error());
     }
     else{
-        $sql = "INSERT INTO (email)
+        $sql = "INSERT INTO subscribers(email)
         VALUES('$email')";
         if ($conn->query($sql)){
             echo "Subscribed Successfully";
