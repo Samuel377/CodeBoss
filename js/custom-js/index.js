@@ -51,10 +51,6 @@ sr.reveal('.submit-button', {
   distance: '500px'
 })
 
-  function change() {
-    document.getElementsByClassName('landpage').style.background = "black";
-    console.log('right');
-  }
 
 function showAlert() {
   var text = "Welcome, the moment we launch you will be notified"
