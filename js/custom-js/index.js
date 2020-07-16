@@ -74,20 +74,3 @@ sr.reveal('.submit-button', {
   }
 
 
-  document.getElementById('postForm').addEventListener('submit', postEmail);
-
-  function postEmail(e) {
-      e.preventDefault();
-
-      var email = document.getElementById('email').value;
-      
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'process.php', true);
-      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
-      
-
-      xhr.onload = function(){
-        console.log(this.responseText);
-      }
-      xhr.send('email='+email);
-  }

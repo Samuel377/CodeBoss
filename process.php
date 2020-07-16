@@ -1,19 +1,29 @@
 <?php
+$email = filter_input(INPUT_POST, 'email');
+if (!empty($email)){
+    $host = "localhost";
+    $dbusername = "root";
+    $dbpassword = "";
+    $dbname = "subscribe";
+    // Create connection
+    $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
-//Connect to the database
-$conn = mysqli_connect('localhost', 'root', '', 'subscribe');
 
-if (isset($_POST['email'])) {
-    # code...
-    // echo 'POST: Your email is '. $_POST['email'];
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $query = "INSERT INTO subscribers(email) VALUES('$email')";
-    if (mysqli_query($conn, $query)) {
-        # code...
-        echo 'User Added...';
-    }else {
-        
-        echo 'Error: '.mysqli_error($conn);
+    if (mysqli_connect_error()){
+        die('Connect Error ('. mysqli_connect_errno() .') '
+        . mysqli_connect_error());
+    }
+    else{
+        $sql = "INSERT INTO subscribers(email)
+        VALUES('$email')";
+        if ($conn->query($sql)){
+            echo "Subscribed Successfully";
+    }
+    else{
+        echo "Error: ". $sql ."
+        ". $conn->error;
+    }
+        $conn->close();
     }
 }
 ?>

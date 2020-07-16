@@ -1,19 +1,207 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://use.typekit.net/nig8psx.css");
+
 
 body{
     font-family: Montserrat;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #5E17EB;
     background-repeat: no-repeat;
+    background-color: #FFFFFF;;
 }
-
-.B{
+.head {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: linear-gradient(180deg, rgba(94, 23, 235, 0.32) 0%, rgba(255, 255, 255, 0) 100%), url();
+    height: 929px;
+    padding-top: 70px;
+}
+.head h2{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 8px;
+}
+.text{
+    text-align: center;
+    color: #FFFFFF;
+}
+.text h1{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 94px;
+    padding-bottom: 44px    ;
+}
+.text p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.learn{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.learn h2{
+    padding-bottom: 50px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 56px;
+    color: #000000;
+}
+.learn p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #010609;
+    padding-bottom: 40px;
+}
+.how-it-works{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.curve-1{
+    padding-top: 40px;
+    position: absolute;
+    width: 100%;
+}
+.curve-2{
+    position: absolute;
+    height: 100%;
+    margin-bottom: 100px;
+    width: 100%;
+    z-index: 1;
+}
+.second{
+    margin-top: 200px;
+}
+.second h2{
+    padding-bottom: 50px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 56px;
+    color: #000000;
+}
+.second p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #010609;
+    padding-bottom: 100px;
+}
+.why-us{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.why-us h2{
+    text-align: center;
+    margin-bottom: 127px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #010609;
+}
+.why-us .col{
+    margin-right: 131px;
+    margin-bottom: 27px;
+    margin-left: 50px;
+}
+.why-us h5{
+    padding-bottom: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.why-us p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #010609;
+}
+.contact{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 156px;
+    padding-bottom: 300px;
+}
+.contact h4{
+    margin-bottom: 67px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.contact h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 46px;
+}
+.contact p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.9);
+}
+footer{
+    background: rgba(94, 23, 235, 0.32);
+    height: 520px;
+    padding-bottom: 220px;
+    padding-left: 25%;
+    width: 100%;
+}
+footer h4{
+    padding-bottom: 55px;
+    padding-left: 120px;
+    padding-top: 112px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000; 
+}
+/* .B{
     color:  #0098FF;
-}
+} */
 
 .landpage{
     padding-left: 60px;
     padding-right: 20px;
-    height: 1024px;
+    height: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #5E17EB;
+
 }   
 .logo{
     margin-bottom: 58px;
@@ -25,14 +213,14 @@ body{
     position: absolute;
     margin-top: 30px;
 }
-.logo h2{ 
+/* .logo h2{ 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-}
+} */
 .left{
     margin-top: 100px;
 }
@@ -57,7 +245,7 @@ body{
     letter-spacing: 0.01em;
     color: #FFFFFF;
 }
-#clockdiv{
+/* #clockdiv{
 	font-family: sans-serif;
 	color: #fff;
 	display: inline-block;
@@ -94,60 +282,66 @@ body{
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-}
-.form-group{
+} */
+/* .form-group{
     margin-top: 70px;
-}
+} */
 .email{
-    background: #FFFFFF;
-    border-radius: 20px 0px 0px 20px;
-    width: 364px;
-    height: 60px;
+    border-radius: 50px 0px 0px 50px;
+    width: 524px;
+    height: 74px;
     border: #FFFFFF;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
     color: rgba(0, 0, 0, 0.9);
-    text-align: center;
+    padding-left: 80px;
 }
 .submit-button{
     width: 154px;
-    height: 60px;
-    background-color: #33ADFF;
-    border-radius: 0px 20px 20px 0px;
-    border: #33ADFF;
+    height: 74px;
+    background-color: rgba(94, 23, 235, 0.32);
+    border-radius: 0px 50px 50px 0px;
+    border: rgba(94, 23, 235, 0.32);
     position: absolute;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.01em;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
     color: #FFFFFF;
 }
 
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 850px){
     .landpage{
         padding-left: 10px;
     }
     .left{
         padding-bottom: 50px;
     }
-    .launch{
+    /* .launch{
         width: 100%;
         height: auto;
         margin-top: 90px;
-    }
+    } */
     .submit-button{
         position: relative;
-        margin-left: 70px;
+        margin-left: 0px;
         margin-top: 20px;
         border-radius: 20px 20px 20px 0px;
     }
     .email{
         border-radius: 20px 20px 20px 0px;
         width: 300px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: rgba(0, 0, 0, 0.9);
     }
     #clockdiv{
         margin-right: 90px;
@@ -158,4 +352,59 @@ body{
     .bottom{
         margin-left: 20px;
     }
+    .head, .learn, .how-it-works, .why-us, .contact{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    .curve-1, .curve-2{
+        width: 100%;
+    }
+    .why-us .col{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    footer h4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        padding-left: 12px;
+    }
 }
+/* @media only screen and (max-width: 950px){
+    footer{
+        padding-right: 300px;
+        text-align: center;
+    }
+    footer h4{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 22px;
+        padding-left: 90px;
+    }
+    .submit-button{
+        position: relative;
+        margin-left: 0px;
+        margin-top: 20px;
+        border-radius: 20px 20px 20px 0px;
+    }
+    .email{
+        border-radius: 20px 20px 20px 0px;
+        width: 500px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+} */
