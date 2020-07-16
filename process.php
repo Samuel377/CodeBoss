@@ -4,9 +4,8 @@ if (!empty($email)){
     $host = "us-cdbr-east-02.cleardb.com";
     $dbusername = "b20f332d2bbfc5";
     $dbpassword = "2e262819";
-    $dbname = "subscribe";
     // Create connection
-    $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
+    $conn = new mysqli ($host, $dbusername, $dbpassword);
 
 
     if (mysqli_connect_error()){
