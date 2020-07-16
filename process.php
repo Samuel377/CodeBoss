@@ -4,8 +4,9 @@ if (!empty($email)){
     $host = "us-cdbr-east-02.cleardb.com";
     $dbusername = "b20f332d2bbfc5";
     $dbpassword = "2e262819";
+    $dbname = "heroku_f954f3b3a98254a";
     // Create connection
-    $conn = new mysqli ($host, $dbusername, $dbpassword);
+    $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
 
     if (mysqli_connect_error()){
