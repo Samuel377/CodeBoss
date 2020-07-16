@@ -1,9 +1,9 @@
 <?php
 $email = filter_input(INPUT_POST, 'email');
 if (!empty($email)){
-    $host = "localhost";
-    $dbusername = "root";
-    $dbpassword = "";
+    $host = "us-cdbr-east-02.cleardb.com";
+    $dbusername = "b20f332d2bbfc5";
+    $dbpassword = "2e262819";
     $dbname = "subscribe";
     // Create connection
     $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
