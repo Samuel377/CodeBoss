@@ -56,4 +56,9 @@ sr.reveal('.submit-button', {
     console.log('right');
   }
 
+function showAlert() {
+  var text = "Welcome, the moment we launch you will be notified"
+  alert(text);
+}
+
 
