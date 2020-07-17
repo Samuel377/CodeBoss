@@ -217,32 +217,25 @@ footer{
     background: rgba(94, 23, 235, 0.32);
     height: 520px;
     padding-bottom: 220px;
-    
     width: 100%;
 }
 footer h4{
     padding-bottom: 55px;
-    /* padding-left: 120px; */
+    padding-left: 120px;
     padding-top: 112px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: #000000; 
     text-align: center;
+    color: rgba(0, 0, 0, 0.68);
+    /* text-align: center; */
 }
 /* .B{
     color:  #0098FF;
 } */
-
-.landpage{
-    padding-left: 60px;
-    padding-right: 20px;
-    height: 100%;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #5E17EB;
-
-}   
+  
 .logo{
     margin-bottom: 58px;
 }
@@ -253,21 +246,11 @@ footer h4{
     position: absolute;
     margin-top: 30px;
 }
-/* .logo h2{ 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-} */
+
 .left{
     margin-top: 100px;
 }
-.launch{
-    width: 656px;
-    height: 684px;
-}
+
 .left h1{
     margin-bottom: 61px;
     font-family: Montserrat;
@@ -334,11 +317,12 @@ footer h4{
         line-height: 17px;
         letter-spacing: 0.01em;
         color: rgba(0, 0, 0, 0.9);
-        margin-left: 20px;
+        margin-right: 420px;
     }
     .left{
         width: 100%;
     }
+    
     .bottom{
         margin-left: 20px;
     }
