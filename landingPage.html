@@ -10,7 +10,7 @@
     <title>Coder Boss || Landing Page</title>
 </head>
 <body>
-    <div class="head">
+    <div class="head" id="flip" onscroll="flip()">
         <div class="logo ">
             <img src="./assets/logoleft.png" class="logo-left" />
             <img src="./assets/logoright.png" alt="right" class="logo-right" />
@@ -25,45 +25,62 @@
     <div class="learn">
         <div class="row">
             <div class="col-md-6">
-                <h2>Learn a Tech Skill</h2>
+                <div class="cool">
+                    <h2>Learn a Tech Skill</h2>
+                    <img src="./assets/down.png" alt="" class="one">
+                </div>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing el it, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation ullamco l aboris nisi ut aliquip ex ea commodo consequat. aute irure dolor in in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid atat non proident, sunt in culpa qui offic ia deserunt mollit anim id est laborum."</p>
             </div>
             <div class="col-md-6"> 
             </div>
         </div>
     </div>
-    <img src="./assets/back2.png" alt="" class="curve-1">
-    <img src="./assets/back.png" alt="" class="curve-2">
+    <div class="curves">
+        <img src="./assets/back2.png" alt="" class="curve-1">
+        <img src="./assets/back.png" alt="" class="curve-2">
+    </div>
     <div class="how-it-works">
         <div class="row">
             <div class="col-md-6 second">
             </div>
             <div class="col-md-6 second">
-                <h2>How it works</h2> 
+                <div class="bottom">
+                    <h2>How it works</h2> 
+                    <img src="./assets/down.png" alt="" class="below">
+                </div>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing el it, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation ullamco l aboris nisi ut aliquip ex ea commodo consequat. aute irure dolor in in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid atat non proident, sunt in culpa qui offic ia deserunt mollit anim id est laborum."</p>
             </div>
-        </div>
+        </div>  
     </div>
     <div class="why-us">
         <div class="top">
             <h2>WHY CODERBOSS</h2>
+            <img src="./assets/down.png" alt="" class="down">
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h5>Easy to Customize</h5>
+                <h5>
+                    <img src="./assets/circle.png" alt="" class="circle"><img src="./assets/easy.png" alt="" class="icons">
+                    Easy to Customize</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum sequi cum animi est, consectetur voluptate voluptatum culpa, expedita id nam dolore magni nobis ducimus doloribus quasi dolor architecto consequuntur exercitationem!</p>
             </div>
             <div class="col-md-6">
-                <h5>Downloaded Anyway</h5>
+                <h5> 
+                    <img src="./assets/circle.png" alt="" class="circle"><img src="./assets/downlad.png" alt="" class="icons">
+                    Downloaded Anyway</h5>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quasi quaerat officia qui omnis, molestiae tempora tenetur debitis cupiditate nihil neque tempore laboriosam iure. Reprehenderit quasi ullam nisi vero incidunt?</p>
             </div>
             <div class="w-100"></div>
             <div class="col-md-6">
-                <h5>User Friendly</h5>
+                <h5>  
+                    <img src="./assets/circle.png" alt="" class="circle"><img src="./assets/user.png" alt="" class="icons">
+                    User Friendly</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quam qui ea natus quisquam! Quaerat beatae asperiores similique ab. Deserunt, quod ex facilis voluptatibus suscipit magnam in similique excepturi recusandae!</p>
             </div>
             <div class="col-md-6">
-                <h5>24 hours Support</h5>
+                <h5>
+                    <img src="./assets/circle.png" alt="" class="circle"><img src="./assets/24hrs.png" alt="" class="icons">
+                    24 hours Support</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non a doloribus illo! Assumenda consequatur culpa modi aut cum facilis libero maiores reiciendis inventore, quae sit qui unde suscipit porro delectus.</p>
             </div>
         </div>
@@ -71,8 +88,8 @@
     <div class="contact">
         <div class="row">
             <div class="col-md-8">
-                <h4>Contact Us</h4>
-                <h3>Learn a Tech Skill with CoderBoss</h3>
+                <h4>Upcoming Projects</h4>
+                <h5>CoderBootcamp</h5>
                 <p>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation ullamco l aboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid atat non proident, sunt in culpa qui offic ia deserunt mollit anim id est laborum."
                 </p>
@@ -83,11 +100,15 @@
         </div>
     </div>
     <footer>
-        <h4>Be the first to know when we launch</h4>
+        <h4>Be the first to know when we launch<br> and also get to be notified</h4>
         <form method="POST" class="form-group" action="process.php">
             <input type="email" placeholder="Enter Email Address" class="email" name="email">
             <input role="button" type="submit" id="submit" class="submit-button" onclick="showAlert()"/>
         </form>
+        <div class="d-flex">
+            <img src="./assets/twitter.png" alt="" class="twitter">
+            <img src="./assets/facebook.png" alt="" class="facebook">
+        </div>
     </footer>
     <!-- <div class="landpage">
         <div class="row">

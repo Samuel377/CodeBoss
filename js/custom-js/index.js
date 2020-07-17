@@ -1,4 +1,4 @@
- window.sr = ScrollReveal();
+window.sr = ScrollReveal();
 
 sr.reveal('.logo-left', {
   duration: 2000,
@@ -56,5 +56,7 @@ function showAlert() {
   var text = "Welcome, the moment we launch you will be notified"
   alert(text);
 }
+
+
 
 

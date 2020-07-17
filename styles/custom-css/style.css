@@ -47,7 +47,7 @@ body{
     padding-right: 100px;
 }
 .learn h2{
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     font-family: Muli;
     font-style: normal;
     font-weight: bold;
@@ -70,7 +70,7 @@ body{
     padding-right: 100px;
 }
 .curve-1{
-    padding-top: 40px;
+    padding-top: 470px;
     position: absolute;
     width: 100%;
 }
@@ -79,13 +79,41 @@ body{
     height: 100%;
     margin-bottom: 100px;
     width: 100%;
+    margin-top: 500px;
+}
+.icons{
+    position: absolute;
+    left: 54px;
+    top: 11px;
+    z-index: 2;
+}
+/* .circle{
+    position: absolute;
+    padding-left: 10px;
     z-index: 1;
+} */
+.d-flex{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.twitter{
+    margin-right: 40px;
 }
 .second{
     margin-top: 200px;
 }
-.second h2{
+.bottom{
     padding-bottom: 50px;
+
+}
+.below{
+    padding-left: 50px;
+}
+.cool{
+    padding-bottom: 70px;
+}
+.second h2{
     font-family: Muli;
     font-style: normal;
     font-weight: bold;
@@ -107,15 +135,24 @@ body{
     padding-left: 100px;
     padding-right: 50px;
 }
+.top{
+    margin-bottom: 127px;
+
+}
+.why-us{
+    padding-top: 100px;
+}
 .why-us h2{
     text-align: center;
-    margin-bottom: 127px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #010609;
+}
+.down{
+    margin-left: 530px;
 }
 .why-us .col{
     margin-right: 131px;
@@ -131,6 +168,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.01em;
     color: #000000;
+    padding-left: 40px;
 }
 .why-us p{
     font-family: Montserrat;
@@ -140,6 +178,7 @@ body{
     line-height: 22px;
     letter-spacing: 0.01em;
     color: #010609;
+    padding-left: 90px;
 }
 .contact{
     padding-left: 100px;
@@ -156,12 +195,12 @@ body{
     line-height: 29px;
     color: rgba(0, 0, 0, 0.9);
 }
-.contact h3{
+.contact h5{
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
     color: rgba(0, 0, 0, 0.9);
     padding-bottom: 46px;
 }
@@ -178,12 +217,12 @@ footer{
     background: rgba(94, 23, 235, 0.32);
     height: 520px;
     padding-bottom: 220px;
-    padding-left: 25%;
+    
     width: 100%;
 }
 footer h4{
     padding-bottom: 55px;
-    padding-left: 120px;
+    /* padding-left: 120px; */
     padding-top: 112px;
     font-family: Montserrat;
     font-style: normal;
@@ -191,6 +230,7 @@ footer h4{
     font-size: 24px;
     line-height: 29px;
     color: #000000; 
+    text-align: center;
 }
 /* .B{
     color:  #0098FF;
@@ -245,47 +285,6 @@ footer h4{
     letter-spacing: 0.01em;
     color: #FFFFFF;
 }
-/* #clockdiv{
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-    font-size: 30px;
-    margin-left: 50px;
-}
-
-#clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-    display: inline-block;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 37px;
-    color: #FFFFFF;
-}
-
-.smalltext{
-	padding-top: 5px;
-    font-size: 16px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-} */
-/* .form-group{
-    margin-top: 70px;
-} */
 .email{
     border-radius: 50px 0px 0px 50px;
     width: 524px;
@@ -298,6 +297,7 @@ footer h4{
     line-height: 29px;
     color: rgba(0, 0, 0, 0.9);
     padding-left: 50px;
+    margin-left: 25%;
 }
 .submit-button{
     width: 154px;
@@ -321,11 +321,6 @@ footer h4{
     .left{
         padding-bottom: 50px;
     }
-    /* .launch{
-        width: 100%;
-        height: auto;
-        margin-top: 90px;
-    } */
     .submit-button{
         position: relative;
         margin-left: 0px;
@@ -342,9 +337,6 @@ footer h4{
         line-height: 17px;
         letter-spacing: 0.01em;
         color: rgba(0, 0, 0, 0.9);
-    }
-    #clockdiv{
-        margin-right: 90px;
     }
     .left{
         width: 100%;
@@ -376,6 +368,25 @@ footer h4{
         font-size: 20px;
         line-height: 22px;
         padding-left: 12px;
+    }
+    .d-flex{
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+    .twitter{
+        width: 50px;
+        height: 50px;
+    }
+    .facebook{
+        width: 50px;
+        height: 50px;
+    }
+    .curve-2{
+        margin-top: 800px;
+    }
+    .down{
+        margin-left: 50%;
+        text-align: center;
     }
 }
 /* @media only screen and (max-width: 950px){
