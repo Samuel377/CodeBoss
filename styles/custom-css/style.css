@@ -371,7 +371,7 @@ footer h4{
     }
     .d-flex{
         margin-top: 10px;
-        margin-left: 20%;
+        /* margin-left: 20%; */
     }
     .twitter{
         width: 50px;
